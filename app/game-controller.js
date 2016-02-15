@@ -79,7 +79,8 @@ app.controller('GameController', function ($scope, $timeout, GameService) {
     
     //Bonus: Write a function that can reset the game
     $scope.gameReset = function() {
-            $scope.deck;
-              
+          $scope.totalMatches = 0;
+          window.location.reload();
     }
+    
 });
